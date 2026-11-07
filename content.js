@@ -29,12 +29,12 @@ var P = [
 ];
 var EDU = [
   { y: "2025 - 2026", t: "Licence 3 – DASI", d: "" },
-  {
+  { y: "2024 - 2025", t: "Deuxième année BTS – Informatique Développeur d’Applications (IDA)", d: "Groupe LOKO, Marcory Résidentiel." },
+   {
     y: "2023 – 2024",
     t: "Première année BTS – Informatique Développeur d’Applications (IDA)",
     d: "Groupe LOKO, Marcory Résidentiel.",
   },
-  { y: "2024 - 2025", t: "Deuxième année BTS – Informatique Développeur d’Applications (IDA)", d: "Groupe LOKO, Marcory Résidentiel." },
 ];
 var EXP = [
   { y: "15 sept. 2025 – 15 sept. 2026", t: "Stage en informatique", d: "Syabe de Technologie. Participation au développement de solutions numériques, notamment avec Microsoft Power Apps, Power Automate et SharePoint. Contribution à la conception et à l'automatisation de processus métiers.." },
