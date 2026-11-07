@@ -133,5 +133,28 @@ Je suis convaincue que l'apprentissage est un processus continu. C'est pourquoi 
 
     <script src="content.js"></script>
     <script src="script.js"></script>
+    <script>
+  (function () {
+    var bouton = document.getElementById("bg");
+    var liens = document.getElementById("links");
+    if (!bouton || !liens) return;
+
+    function fermer() {
+      liens.classList.remove("open");
+      bouton.setAttribute("aria-expanded", "false");
+      bouton.textContent = "☰";
+    }
+
+    bouton.addEventListener("click", function () {
+      var ouvert = liens.classList.toggle("open");
+      bouton.setAttribute("aria-expanded", ouvert ? "true" : "false");
+      bouton.textContent = ouvert ? "✕" : "☰";
+    });
+
+    liens.addEventListener("click", function (e) {
+      if (e.target.tagName === "A") fermer();
+    });
+  })();
+</script>
   </body>
 </html>
