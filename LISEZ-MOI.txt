@@ -1,0 +1,12 @@
+Mon portfolio
+
+Fichiers :
+- index.html  : la structure de la page
+- style.css   : les couleurs et la mise en page
+- content.js  : TON CONTENU (projets, parcours, compétences, certificats)
+- script.js   : les animations et interactions
+
+Pour voir le site : ouvre le dossier dans VS Code, installe l'extension
+Live Server, puis clic droit sur index.html > Open with Live Server.
+
+Pour changer tes textes : modifie content.js (et ton nom dans index.html).

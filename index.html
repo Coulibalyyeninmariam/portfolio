@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>Prénom Nom, développement d’applications</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Syne:wght@600;700;800&display=swap"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <a class="logo" href="#accueil">/Mariam_Dev</a>
+      <div class="links" id="links">
+        <a href="#accueil">Accueil</a><a href="#apropos">À propos</a
+        ><a href="#parcours">Parcours</a><a href="#competences">Compétences</a
+        ><a href="#projets">Projets</a><a href="#certificats">Certificats</a
+        ><a href="#contact">Contact</a>
+      </div>
+      <button class="tg" id="tg" aria-label="Changer de thème">◐</button>
+      <a class="btn" href="public/CV Professionnel Minimaliste Moderne Rouge.pdf">Mon CV</a>
+    </nav>
+
+    <section class="hero" id="accueil">
+      <canvas id="cv" aria-hidden="true"></canvas>
+      <div class="hin">
+        <h1>Coulibaly Yenin Mariam</h1>
+        <p class="role"><span id="role"></span><i></i></p>
+        <p class="lead">
+          Étudiante en développement d’applications. Je construis des applications mobiles
+          et web utiles.
+        </p>
+        <div class="cta">
+          <a class="btn" href="#projets">Voir mes projets</a
+          ><a class="btn ghost" href="#contact">Me contacter</a>
+        </div>
+        <div class="stats">
+          <div><b data-n="1">0</b><span>projets réalisés</span></div>
+          <div><b data-n="9">0</b><span>certificats</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="apropos">
+      <h2>À propos</h2>
+      <div class="about">
+        <div class="photo">
+          <img src="public/WhatsApp Image 2026-11-05 at 14.21.51.jpeg" alt="Portrait de Yenin Mariam Coulibaly" />
+        </div>
+        <div>
+          <p>
+            Je suis une passionnée du numérique, curieuse et toujours animée par l’envie d’apprendre et de relever de nouveaux défis.
+
+Mon parcours dans le domaine informatique m’a permis de développer des compétences en développement d’applications, notamment avec Microsoft Power Platform, ainsi qu'en développement web et en conception de solutions numériques.
+          </p>
+          <p>
+           J'aime transformer des idées en solutions concrètes, comprendre les besoins et imaginer des outils qui facilitent le quotidien. À travers mes projets, je cherche constamment à mettre en pratique mes connaissances, à explorer de nouvelles technologies et à améliorer mes compétences.
+
+Je suis convaincue que l'apprentissage est un processus continu. C'est pourquoi je reste ouverte aux nouvelles opportunités, aux collaborations et aux expériences qui me permettront de grandir aussi bien sur le plan professionnel que personnel.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="parcours">
+      <h2>Parcours</h2>
+      <div class="two">
+        <div>
+          <h3>Formation</h3>
+          <div id="edu"></div>
+        </div>
+        <div>
+          <h3>Expériences</h3>
+          <div id="exp"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="competences">
+      <h2>Compétences</h2>
+      <div class="sk" id="sk"></div>
+    </section>
+
+    <section id="projets">
+      <h2>Projets</h2>
+      <div
+        class="filters"
+        id="filters"
+        role="group"
+        aria-label="Filtrer les projets"
+      ></div>
+      <div class="grid" id="pg"></div>
+    </section>
+
+    <section id="certificats">
+      <h2>Certificats</h2>
+      <div class="grid certs" id="cg"></div>
+    </section>
+
+    <section id="contact">
+      <h2>Écris-moi</h2>
+      <form id="f">
+        <input id="fn" placeholder="Ton nom" aria-label="Ton nom" required />
+        <input
+          id="fe"
+          type="email"
+          placeholder="Ton e-mail"
+          aria-label="Ton e-mail"
+          required
+        />
+        <textarea
+          id="fm"
+          placeholder="Ton message"
+          aria-label="Ton message"
+          required
+        ></textarea>
+        <button class="btn" type="submit">Ouvrir mon e-mail</button>
+      </form>
+      <div class="ctl">
+        <a class="btn ghost" href="https://github.com/Coulibalyyeninmariam">GitHub</a><a class="btn ghost" href="https://www.linkedin.com/in/yenin-mariam-coulibaly-969b84355?utm_source=share_via&utm_content=profile&utm_medium=member_ios">LinkedIn</a
+        ><a class="btn ghost" href="public/CV Professionnel Minimaliste Moderne Rouge.pdf">Télécharger le CV</a>
+      </div>
+    </section>
+    <footer>Coulibaly Yenin Mariam, 2026</footer>
+    <button id="top" aria-label="Retour en haut">↑</button>
+    <div id="ring" aria-hidden="true"></div>
+
+    <script src="content.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
