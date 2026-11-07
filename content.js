@@ -8,8 +8,8 @@ var P = [
     n: "ToiletCI",
     k: "Mobile",
     c: "#00B8D9",
-    s: ["Kotlin", "MySql"],
-    d: "Projet de classe : application pour trouver des toilettes à proximité.",
+    s: ["Kotlin", "MySql","Java spring boot","OpenStreetMap"],
+    d: "Dans le cadre d'un projet académique réalisé en équipe, j'ai contribué au développement Front-end de l'application, notamment à la création et à l'intégration des interfaces utilisateur ainsi qu'à leur mise en forme.",
     i:"public/toiletfinder-demarrage-carte.png"
   },
  /* {
@@ -28,13 +28,13 @@ var P = [
   },*/
 ];
 var EDU = [
+  { y: "2025 - 2026", t: "Licence 3 – DASI", d: "" },
   {
     y: "2023 – 2024",
     t: "Première année BTS – Informatique Développeur d’Applications (IDA)",
     d: "Groupe LOKO, Marcory Résidentiel.",
   },
   { y: "2024 - 2025", t: "Deuxième année BTS – Informatique Développeur d’Applications (IDA)", d: "Groupe LOKO, Marcory Résidentiel." },
-  { y: "2025 - 2026", t: "Licence 3 – DASI", d: "" },
 ];
 var EXP = [
   { y: "15 sept. 2025 – 15 sept. 2026", t: "Stage en informatique", d: "Syabe de Technologie. Participation au développement de solutions numériques, notamment avec Microsoft Power Apps, Power Automate et SharePoint. Contribution à la conception et à l'automatisation de processus métiers.." },
