@@ -28,12 +28,17 @@ var P = [
   },*/
 ];
 var EDU = [
-  { y: "2025 - 2026", t: "Licence 3 – DASI", d: "" },
-  { y: "2024 - 2025", t: "Deuxième année BTS – Informatique Développeur d’Applications (IDA)", d: "Groupe LOKO, Marcory Résidentiel." },
+  { y: "2025 - 2026", t: "Licence 3 – DASI", d: "ESATIC" },
+  { y: "2024 - 2025", t: "BTS – Informatique Développeur d’Applications (IDA)", d: "Groupe LOKO, Marcory Résidentiel." },
    {
     y: "2023 – 2024",
-    t: "Première année BTS – Informatique Développeur d’Applications (IDA)",
-    d: "Groupe LOKO, Marcory Résidentiel.",
+    t: "BAC",
+    d: "Lycée Moderne Koumassi",
+  },
+   {
+    y: "2020 – 2021",
+    t: "BEPC",
+    d: "Lycée Moderne Koumassi",
   },
 ];
 var EXP = [
