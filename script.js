@@ -94,7 +94,7 @@ function pj() {
             return '<span class="tag">' + s + "</span>";
           })
           .join("") +
-        '</div><a href="public/toiletfinder-maquette-complete.png">Voir le projet</a></div></article>'
+        '</div><a href="public/toiletfinder-maquette (1).png">Voir le projet</a></div></article>'
       );
     })
     .join("");
@@ -291,4 +291,22 @@ $("f").onsubmit = function (e) {
     encodeURIComponent("Message de " + $("fn").value) +
     "&body=" +
     encodeURIComponent($("fm").value + "\n\n" + $("fe").value);
+};
+/* menu burger (mobile) */
+var bg = $("bg");
+
+function fermerMenu() {
+  $("links").classList.remove("open");
+  bg.setAttribute("aria-expanded", "false");
+  bg.textContent = "☰";
+}
+
+bg.onclick = function () {
+  var ouvert = $("links").classList.toggle("open");
+  bg.setAttribute("aria-expanded", ouvert);
+  bg.textContent = ouvert ? "✕" : "☰";
+};
+
+$("links").onclick = function (e) {
+  if (e.target.tagName === "A") fermerMenu();
 };
