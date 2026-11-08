@@ -19,17 +19,20 @@
   </head>
   <body>
     <nav>
-      <a class="logo" href="#accueil">/Mariam_Dev</a>
-      <div class="links" id="links">
-        <a href="#accueil">Accueil</a><a href="#apropos">À propos</a
-        ><a href="#parcours">Parcours</a><a href="#competences">Compétences</a
-        ><a href="#projets">Projets</a><a href="#certificats">Certificats</a
-        ><a href="#contact">Contact</a>
-      </div>
-      <button class="tg" id="tg" aria-label="Changer de thème">◐</button>
-      <!-- <a class="btn" href="public/CV Professionnel Minimaliste Moderne Rouge.pdf">Mon CV</a> -->
-      <button class="tg bg" id="bg" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="links">☰</button>
-    </nav>
+  <a class="logo" href="#accueil">Yenin Coulibaly</a>
+  <input type="checkbox" id="mn" class="mn" aria-hidden="true" />
+  <div class="links" id="links" onclick="document.getElementById('mn').checked = false">
+    <a href="#accueil">Accueil</a>
+    <a href="#apropos">À propos</a>
+    <a href="#parcours">Parcours</a>
+    <a href="#competences">Compétences</a>
+    <a href="#projets">Projets</a>
+    <a href="#certificats">Certificats</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <button class="tg" id="tg" aria-label="Changer de thème">◐</button>
+  <label for="mn" class="tg bg" aria-label="Ouvrir le menu"></label>
+</nav>
 
     <section class="hero" id="accueil">
       <canvas id="cv" aria-hidden="true"></canvas>
