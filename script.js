@@ -94,7 +94,7 @@ function pj() {
             return '<span class="tag">' + s + "</span>";
           })
           .join("") +
-        '</div><a href="public/toiletfinder-maquette (1).png">Voir le projet</a></div></article>'
+        '</div><a href="public/toiletfinder-maquette (2).png">Voir le projet</a></div></article>'
       );
     })
     .join("");
